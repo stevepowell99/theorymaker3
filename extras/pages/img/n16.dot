@@ -1,0 +1,18 @@
+digraph {
+    compound=true;
+    fontname=Arial;
+    tooltip=" " ;
+    ranksep=1
+    rankdir=LR
+    labeljust=c
+    ratio=0.4
+    edge[style="bold"] ;graph[bgcolor="aliceblue"  ;];
+    node[shape="plaintext" height="0" width="0" fontname = "Arial" tooltip=" " style="filled" fillcolor="gray" ] edge[fontname=Arial fontcolor=indianred fontsize=14.0 penwidth=1.5 tooltip=" " color=indianred  ]
+Variablewithaverylengthylabel [  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="cornsilk2"><FONT POINT-SIZE="20"> Variable with a <br/> very lengthy label</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];
+  label="" }

@@ -1,0 +1,38 @@
+digraph {
+    compound=true;
+    tooltip=" " ;
+    ranksep=0.7
+    nodesep=0.7
+    bgcolor=aliceblue
+    rankdir=LR
+    labeljust=c
+    ratio=0.4 fontname=Arial  ;graph[fontcolor=black ] 
+
+node[color=gray fontname=Arial shape="plaintext" height="0" width="0"  tooltip=" " style="filled" ]
+
+ edge[fontcolor=black color=indianred fontname=Arial fontsize=14.0 penwidth=1.5 tooltip=" "  ];
+
+Childgetsupset->Pa[]
+Pa->Childgetsupset[]
+
+Pa [fontcolor=black  nodebgcolor="aliceblue"  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="aliceblue"><FONT POINT-SIZE="20"> Pa</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];Childgetsupset [fontcolor=black  nodebgcolor="aliceblue"  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="aliceblue"><FONT POINT-SIZE="20"> Child gets upset</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];Pa [fontcolor=black  nodebgcolor="aliceblue"  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="aliceblue"><FONT POINT-SIZE="20"> Parent gets angry</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];
+
+  label="" }

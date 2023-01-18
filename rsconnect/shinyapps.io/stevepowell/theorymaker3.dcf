@@ -1,0 +1,13 @@
+name: theorymaker3
+title: theorymaker3
+username:
+account: stevepowell
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 359852
+bundleId: 2153678
+url: https://stevepowell.shinyapps.io/theorymaker3/
+when: 1560523762.39763
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: info2.csv|kill.dgr|mypn.pdf

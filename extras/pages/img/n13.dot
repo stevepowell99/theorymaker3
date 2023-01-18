@@ -1,0 +1,44 @@
+digraph {
+    compound=true;
+    fontname=Arial;
+    tooltip=" " ;
+    ranksep=1
+    rankdir=LR
+    labeljust=c
+    ratio=0.4
+    edge[style="bold"] ;graph[bgcolor="aliceblue"  ;];
+    node[shape="plaintext" height="0" width="0" fontname = "Arial" tooltip=" " style="filled" fillcolor="gray" ] edge[fontname=Arial fontcolor=indianred fontsize=14.0 penwidth=1.5 tooltip=" " color=indianred  ]a->b[ ]
+b->b[ ]
+b->a,a[ ]
+a [  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="cornsilk2"><FONT POINT-SIZE="20"> a</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];b [  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="cornsilk2"><FONT POINT-SIZE="20"> b</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];b [  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="cornsilk2"><FONT POINT-SIZE="20"> b</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];a [  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="cornsilk2"><FONT POINT-SIZE="20"> a</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];a [  label=<<TABLE  BORDER="0" CELLBORDER="0" CELLPADDING="4" CELLSPACING="2" >
+      
+      
+      
+      <TR><TD  BORDER="0" CELLPADDING="4"  BGCOLOR="cornsilk2"><FONT POINT-SIZE="20"> a</FONT></TD></TR>
+      
+      </TABLE>> margin="0" ];
+  label="" }
